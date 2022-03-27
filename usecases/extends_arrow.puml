@@ -1,0 +1,7 @@
+@startuml
+actor :Main Admin: as Admin
+usecase (Use the application) as (UseCase)
+
+User <|-- Admin : extends user rights
+(Start) <|-- (UseCase) : extends start rights
+@enduml
