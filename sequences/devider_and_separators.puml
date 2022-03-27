@@ -1,9 +1,5 @@
 @startuml
 'https://plantuml.com/sequence-diagram
-scale 700 width
-
-autonumber
-
 
 actor Daniil
 actor Daria
@@ -55,7 +51,7 @@ end
 == create dashboard ==
 
 group create create dashboard
-    create participant string
-    Daria -> string
+    Daria -> dashboard ** : create
+
 end
 @enduml
