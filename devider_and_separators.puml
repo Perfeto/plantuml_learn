@@ -1,0 +1,61 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+scale 700 width
+
+autonumber
+
+
+actor Daniil
+actor Daria
+
+== Coffee ==
+group coffee request
+
+    [-->x Daniil: i wanna read book
+    [--> Daniil: i wanna coffee
+
+    Daniil -> Daria  : let me coffee
+    activate Daria
+
+    Daria -> Daniil : take you coffee
+    deactivate Daria
+
+    [--> Daniil: i wanna read book
+    activate Daniil
+    destroy Daniil
+
+    ...
+
+end
+== laptop ==
+group laptop request
+
+    Daniil -> Daria : let me laptop
+    activate Daria
+
+    Daria -> Daria : where is laptop?
+
+    Daria -> Daniil : take laptop
+    deactivate Daria
+end
+
+== tickle (щекотать) ==
+
+group tickle
+    Daria -> Daniil : start tickle
+    activate Daniil
+
+    Daniil -> Daria : stop it
+
+    Daria -> Daniil !! : ok
+
+    deactivate Daniil
+end
+
+== create dashboard ==
+
+group create create dashboard
+    create participant string
+    Daria -> string
+end
+@enduml

@@ -1,0 +1,39 @@
+@startuml
+scale 400 width
+
+title Arrows
+
+participant Alice
+participant Bob #lightblue
+participant Carol #lightgreen
+
+Alice -[#red]> Bob    :1
+Bob -[#green]> Carol    :2
+...
+[-[#blue]> Bob :3
+[o-[#black]> Bob    :4
+[o-[#purple]>o Bob   :5
+[x-> Bob    :6
+...
+[<- Bob :7
+[x<- Bob    :8
+...
+Bob ->] :9
+Bob ->o]    :10
+Bob o->o]   :11
+Bob ->x]    :12
+...
+Bob <-] :13
+[-->x Bob   :14
+
+Bob ->x Alice   :15
+Bob -> Alice    :16
+Bob ->> Alice   :17
+Bob -\ Alice    :18
+Bob \\- Alice   :19
+Bob //-- Alice  :20
+Bob ->o Alice   :21
+Bob o\\-- Alice :22
+Bob <-> Alice   :23
+Bob <->o Alice  :24
+@enduml

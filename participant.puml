@@ -1,0 +1,42 @@
+@startuml
+scale 700 width
+
+title partipiciant
+
+autonumber
+autoactivate on
+
+participant participant as Foo
+actor actor as Foo1
+boundary boundary as Foo2
+control control as Foo3
+entity entity as Foo4
+database database as Foo5
+collections collections as Foo6
+queue queue as Foo7
+
+group participant cals
+
+Foo -> Foo1 : To actor
+return finis actor
+
+Foo -> Foo2 : To boundary
+return finis boundary
+
+Foo -> Foo3 : To control
+return finis control
+
+Foo -> Foo4 : To entity
+return finis entity
+
+Foo -> Foo5 : To database
+return finis database
+
+Foo -> Foo6 : To collections
+return finis collections
+
+Foo -> Foo7: To queue
+return finis queue
+
+end
+@enduml
