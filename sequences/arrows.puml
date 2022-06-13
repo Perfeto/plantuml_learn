@@ -3,8 +3,11 @@ scale 400 width
 
 title Arrows
 
-participant Alice
-participant Bob #lightblue
+box "Internal Service" #LightBlue
+    participant Alice
+    participant Bob #lightblue
+end box
+
 participant Carol #lightgreen
 
 Alice -[#red]> Bob    :1
