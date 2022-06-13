@@ -1,0 +1,186 @@
+@startjson
+{
+  "errors": [
+    {
+      "field": "string",
+      "message": "string"
+    }
+  ],
+  "pagination": {
+    "limit": 0,
+    "offset": 0,
+    "total": 0
+  },
+  "result": [
+    {
+      "archived_at": "string",
+      "area": 0,
+      "area_basement": 0,
+      "area_common_property": 0,
+      "area_non_residential": 0,
+      "area_parking": 0,
+      "area_residential": 0,
+      "balcony": {
+        "id": 0,
+        "name": "string",
+        "slug": "string"
+      },
+      "bathroom": {
+        "id": 0,
+        "name": "string",
+        "slug": "string"
+      },
+      "build_date": "string",
+      "building_series": {
+        "id": 0,
+        "name": "string",
+        "slug": "string"
+      },
+      "cad_number": "string",
+      "ceiling_height": 0,
+      "chute_count": 0,
+      "cold_water": {
+        "id": 0,
+        "name": "string",
+        "slug": "string"
+      },
+      "commissioning_date": "string",
+      "created_at": "string",
+      "drainage": {
+        "id": 0,
+        "name": "string",
+        "slug": "string"
+      },
+      "electrical": {
+        "id": 0,
+        "name": "string",
+        "slug": "string"
+      },
+      "electrical_entries_count": 0,
+      "elevator": {
+        "id": 0,
+        "name": "string",
+        "slug": "string"
+      },
+      "energy_efficiency": {
+        "id": 0,
+        "name": "string",
+        "slug": "string"
+      },
+      "entrance_count": 0,
+      "firefighting": {
+        "id": 0,
+        "name": "string",
+        "slug": "string"
+      },
+      "flat_number": "string",
+      "flats_total": 0,
+      "floor": 0,
+      "floor_material": {
+        "id": 0,
+        "name": "string",
+        "slug": "string"
+      },
+      "floors_max": 0,
+      "floors_min": 0,
+      "foundation": {
+        "id": 0,
+        "name": "string",
+        "slug": "string"
+      },
+      "garbage_chute": {
+        "id": 0,
+        "name": "string",
+        "slug": "string"
+      },
+      "gas_supply": {
+        "id": 0,
+        "name": "string",
+        "slug": "string"
+      },
+      "geo_guid": "string",
+      "glazing_balcony": true,
+      "heating": {
+        "id": 0,
+        "name": "string",
+        "slug": "string"
+      },
+      "hot_water_supply": {
+        "id": 0,
+        "name": "string",
+        "slug": "string"
+      },
+      "house_yard": [
+        {
+          "id": 0,
+          "name": "string",
+          "slug": "string"
+        }
+      ],
+      "id": "string",
+      "is_alarm": true,
+      "is_archived": true,
+      "label": "string",
+      "lifts_freight": 0,
+      "lifts_passenger": 0,
+      "lifts_total": 0,
+      "parents": [
+        "string"
+      ],
+      "parking": [
+        {
+          "id": 0,
+          "name": "string",
+          "slug": "string"
+        }
+      ],
+      "parking_quantity": 0,
+      "point": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "project_type": {
+        "id": 0,
+        "name": "string",
+        "slug": "string"
+      },
+      "quality_repair": {
+        "id": 0,
+        "name": "string",
+        "slug": "string"
+      },
+      "realty_type": {
+        "id": 0,
+        "name": "string",
+        "slug": "string"
+      },
+      "rooms": 0,
+      "sewerage": {
+        "id": 0,
+        "name": "string",
+        "slug": "string"
+      },
+      "sewerage_cesspools_volume": 0,
+      "unliving_quarters_count": 0,
+      "updated_at": "string",
+      "ventilation": {
+        "id": 0,
+        "name": "string",
+        "slug": "string"
+      },
+      "view_from_windows": [
+        {
+          "id": 0,
+          "name": "string",
+          "slug": "string"
+        }
+      ],
+      "wall_material": {
+        "id": 0,
+        "name": "string",
+        "slug": "string"
+      }
+    }
+  ]
+}
+@enduml
